@@ -2,3 +2,35 @@
     width: 80%;
     margin: 0 auto;
 }
+.dimensione{
+    width: 100px;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    vertical-align: middle;
+}  
+.termini{
+font-size: 30px;
+color: grey;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+li{
+    list-style: none;
+    margin: 15px;
+    cursor: pointer;
+}
+.logo{
+    margin-left: 45px;
+}
+.cliccato{
+    color: blue;
+    border-bottom: solid 3px blue;
+}
